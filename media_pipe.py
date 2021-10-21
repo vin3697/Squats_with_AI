@@ -16,14 +16,14 @@ with mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5) as 
     while cap.isOpened():
         ret, frame = cap.read()
         
-        # Recolor image to RGB
+        # Recolor image to RGB (as the OpenCv takes the image as BGR and media pipe has to work with RGB)
         image = cv.cvtColor(frame, cv.COLOR_BGR2RGB)
         image.flags.writeable = False
       
         # Make detection
         results = pose.process(image)
     
-        # Recolor back to BGR
+        # Recolor back to BGR (as we are going back to OpenCv environmwent, have to change the image from RGB to BGR)
         image.flags.writeable = True
         image = cv.cvtColor(image, cv.COLOR_RGB2BGR)
         
