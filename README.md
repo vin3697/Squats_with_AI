@@ -15,5 +15,5 @@ and depending on the distance value I have built the logic which enables me to c
 ******** I have taken reference from this guy https://github.com/nicknochnack/MediaPipePoseEstimation ********
 
 
-
+https://user-images.githubusercontent.com/92587549/138365729-520c9e61-2c8c-47f4-a28c-3a01182e7c9d.mp4
 
