@@ -11,7 +11,7 @@ My knee co-ordinate is almost static in nature and my shoulder co-ordinate is va
 Now, I have just calculated the euclidean distance between them 
 and depending on the distance value I have built the logic which enables me to count the number of squats down by person!!
 
-## This same logic with different pose of body parts I can develope such project for counting push-ups and crunches as well ##
+## with different pose of body parts I can develope such project for counting push-ups and crunches as well ##
 
 
 ******** I have taken reference from this guy https://github.com/nicknochnack/MediaPipePoseEstimation ********
