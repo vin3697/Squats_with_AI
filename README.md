@@ -2,7 +2,7 @@
 This project counts the number of squat the person does.
 
 
-I have used OpenCV and mediapipe library to accomplish this task of counting the numbe of squats.
+I have used OpenCV and mediapipe library to accomplish this task of counting the number of squats.
 
 From mediapipe library I have used feature of pose, from where I got the co-ordinates of my shoulder and knee.
 
